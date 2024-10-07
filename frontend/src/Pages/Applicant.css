@@ -1,0 +1,58 @@
+/* Button Styles */
+.btn-primary {
+    background-color: #121e6f;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-success {
+    background-color: #121e6f;
+    border-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color:#0056b3;
+    border-color: #218838;
+  }
+  
+  .btn-warning {
+    background-color:#121e6f;
+    border-color: #ffc107;
+    color: #fff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #0056b3;
+    border-color: #d39e00;
+    color: #212529;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+  }
+  
+  /* Other Button Styles */
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  

@@ -1,0 +1,12 @@
+.youtube-video {
+   margin-left: auto;
+   flex: 1;
+    width: 50%; /* Adjust the width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:  #0c1440;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+  }
+
+  

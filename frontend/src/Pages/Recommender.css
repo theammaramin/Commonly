@@ -1,0 +1,79 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .user-info-card {
+    background-color: #f8f9fa;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: center;
+
+  
+  }
+  
+  .login-header {
+    text-align: center;
+     margin: 0;
+    
+  }
+
+  .preference-dropdowns {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .preference-dropdowns label {
+    font-weight: bold;
+  }
+  
+  .preference-dropdowns select {
+    width: 150px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  .preference-dropdowns select:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  
+  
+  .btn-primary {
+    background-color: #121e6f;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-success {
+    background-color: #121e6f;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color:  #0069d9;
+    border-color: #1e7e34;
+  }
+  

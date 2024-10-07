@@ -1,0 +1,97 @@
+/* LoginStyles.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8; /* A light gray background */
+  padding: 2rem;
+}
+
+.d-flex {
+  width: 100%;
+}
+
+.centered-container {
+  width: 100%;
+  max-width: 500px; /* or whatever width you prefer */
+  text-align: center; /* This will center the text of direct children */
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px; /* Set a max-width for the login card */
+  padding: 2rem;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h1 {
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+}
+
+.link-primary {
+  color: #0056b3;
+}
+
+.alert {
+  margin-top: 1rem;
+}
+
+/* You can also use a media query for responsiveness */
+@media (max-width: 768px) {
+  .login-card {
+    padding: 1rem;
+  }
+}
+.tagline {
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Adjust the height as necessary */
+  margin-bottom: 2rem;
+}
+
+.login-header h1 {
+  font-size: 2.5rem; /* Large, readable font size for the main title */
+  font-weight: bold; /* Make the title bold */
+  color: #102a43; /* A professional color, you can adjust as per your brand color */
+  margin-bottom: 0.5rem; /* Spacing between the title and tagline */
+}
+
+.login-header p {
+  font-size: 1rem;
+  color: #6c757d; /* A softer color for the tagline */
+}
+
+.login-card, .login-header {
+  flex-basis: 50%; /* Each child takes up half the width of the flex container */
+}

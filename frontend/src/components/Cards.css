@@ -1,0 +1,33 @@
+.card {
+
+    margin: 30px;
+    width: 20rem;
+    
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.card-img-top {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the entire space */
+  }
+
+  .card-text {
+    text-overflow: clip; /* Add ellipsis (...) to indicate truncated text */
+    white-space: wrap; /* Prevent text from wrapping */
+  }
+  
+  /* Optionally, you can override the white-space property for smaller screens to allow text wrapping */
+  @media (max-width: 768px) {
+    .card-text {
+      white-space: normal; /* Allow text to wrap */
+    }
+  }
+  

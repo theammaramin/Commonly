@@ -1,0 +1,26 @@
+.login-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 ;
+    margin-bottom: 50px;
+  }
+  
+  .login-header {
+    margin-bottom: 2rem;
+  }
+  
+  .login-card {
+    flex: 1;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 0 1rem;
+    }
+  }
+  

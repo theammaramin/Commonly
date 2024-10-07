@@ -1,0 +1,34 @@
+
+
+
+    
+    
+.footer {
+  background:rgb(228, 230, 233);
+}
+
+.follows span a {
+  text-decoration: none;
+}
+
+.follows span {
+  margin-right: 15px;
+}
+
+.link__list .link__item {
+  background: transparent;
+}
+
+.link__list a {
+  text-decoration: none;
+  color:#121e6f;
+  font-weight: 500;
+}
+
+.blue-text{
+  color: #121e6f;
+  }
+
+  .gt{
+    margin-top: 10px;
+  }

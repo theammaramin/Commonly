@@ -1,0 +1,22 @@
+/* ImageSlider.css */
+
+
+.image-slider {
+  flex: 1;
+    margin: 20px;
+  }
+  
+  .slick-slider {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+  

@@ -1,0 +1,57 @@
+/* BooksStyles.css */
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .book-card {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .book-info {
+    margin-bottom: 8px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+.delete-button,
+.update-button,
+.add-button {
+  background-color: #0f0d87;
+  color: #fff !important;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.delete-button:hover,
+.update-button:hover,
+.add-button:hover {
+  background-color: #bec5cb2d;
+}

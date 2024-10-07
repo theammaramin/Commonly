@@ -1,0 +1,52 @@
+/* Questionnaire.css */
+
+
+
+.question {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.question p {
+  margin-bottom: 10px;
+}
+
+.questionnaire-heading {
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+}
+  
+.college-ids {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #dee2e6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-control {
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #121e6f;
+}

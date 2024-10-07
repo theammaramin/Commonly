@@ -1,0 +1,40 @@
+
+  .dashboard-container {
+    padding: 10px ;
+  }
+  
+  /* Login header styling */
+  .login-header {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* User info card styling */
+  .user-info-card {
+    max-width: 800px;
+    padding: 30px ;
+    margin: 50px auto; /* Center the card horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    border-radius: 10px; /* Example border radius */
+  }
+  
+  /* User info styling */
+  .user-info h1 {
+    font-size: 24px; /* Example font size */
+    margin-bottom: 20px;
+  }
+  
+  .user-info h2 {
+    font-size: 18px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    margin-bottom: 10px;
+  }
+  
+  /* Loading message styling */
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+ 

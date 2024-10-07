@@ -1,0 +1,42 @@
+.hero__content h2 {
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.hero__content {
+  padding-top: 80px;
+}
+.search input {
+  border: none;
+  padding: 7px 10%;
+}
+
+.search {
+  width: 60%;
+  border: 1px solid #17bf9d44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+  background-color: #121e6f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.search:hover {
+  background-color: #2980b9;
+}
+
+.hero__img{
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+  mix-blend-mode: multiply;
+  
+}

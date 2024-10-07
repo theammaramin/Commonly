@@ -1,0 +1,120 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  line-height: 1.6;
+}
+
+/* Navigation bar styling */
+.navbar {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Container styling for padding and margin */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+/* Section styling */
+section {
+  background: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Title styles for the About Us page */
+.aboutus-title {
+  color: #121e6f;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Text styling for paragraphs */
+.aboutus-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Team photo styles */
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+}
+
+/* Headings within sections */
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .aboutus-title, h2 {
+    font-size: 1.8rem;
+  }
+
+  .team-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
